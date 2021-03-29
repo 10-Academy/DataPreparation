@@ -35,7 +35,19 @@ Need for Data Cleaning or Data Preparation
 4. All in all the dataset is not qualitative but is just quantitative.
 
 ## Steps to execute a data preparation task
-There is no rigid way of doing data preparation task as different requires different ways of getting a clean, nicely formatted data. It all depends on the state of the data. Generally, it could involve the following process:
-1. Preparing for the preparation:: 
+There is no rigid way of doing data preparation task as different datasets requires different ways of getting a clean, nicely formatted data. It all depends on the state of the data. Generally, it could involve the following process:
+1. Preparing for the preparation:: This stage is known as data gathering or data collection. You can't clean what you don't have right? The process may invlove [collecting data from a database](https://www.w3schools.com/python/python_mysql_getstarted.asp), [scraping a website](https://realpython.com/beautiful-soup-web-scraper-python/) for any kind of data, [extracting sheet from an excel documents](https://towardsdatascience.com/replacing-sheets-with-python-f1608e58d2ca) etc. Having access to the data, you can move to the next phase of data preparation which is Exploratory Data Analysis
+2. Exploratory Data Analysis:: (EDA) for short is a very important stage in any data preparation task. It enables you to understand the structure of any data, make sense of the data, detect outliers, detect features with missing values, identify unwanted features and invalid datapoints etc. This stage generally is divided into 2 the Uni-variate Analysis and Bi-variate Analysis and you can learn more about them in the repository [here](https://github.com/10-Academy-Self-Learning-Resources/DataVisualization)
+3. Data Preprocessing:: While Exploring the data, you would have identified columns/features with problems (invalid values, missing values, outliers etc). Preprocessing the data can involve dropping columns, removing outliers, replacing values etc. It sometimes important to have a domain knowledge about what the data is trying to describe, this can help preprocess the data and generate useful, important insights.
+4. Data Transformation:: This stage is about changing a particular feature into another dimension or scale. For examples, transforming a population(Million scale) feature to a unit scale. This is neccessary because the model will assign higher weights to the bigger values and by so doing introduces biasness to the model thereby getting a wrong interpretation or prediction. Learn more about [data transformation here](https://towardsdatascience.com/normalization-vs-standardization-quantitative-analysis-a91e8a79cebf)
+
+The final part could be to build a model with the data or save it for another use or just generate more insights and present findings to stackholders. Whichever the case you have a nicely formatted, clean data ready for further analysis.
+
+## Learn More 
+1. [7 steps of data Preparation](https://www.kdnuggets.com/2019/06/7-steps-mastering-data-preparation-python.html)
+2. [Doing Data Science: A Kaggle Walkthrough Part 3 – Cleaning Data, by Brett Romero](https://www.kdnuggets.com/2016/06/doing-data-science-kaggle-walkthrough-data-cleaning.html)
+3. [Machine Learning Workflows in Python from Scratch Part 1: Data Preparation](https://www.kdnuggets.com/2017/05/machine-learning-workflows-python-scratch-part-1.html)
+4. [Introduction to Logarithm and Exponential Functions](https://nool.uoit.ca/mathematics/exponential-logarithmic-functions/basics/index.php)
+5. [Techniques to Handle Imbalaced Datasets](https://www.kdnuggets.com/2017/06/7-techniques-handle-imbalanced-data.html)
 
 ![data_prep](https://user-images.githubusercontent.com/40719064/112724545-2f437500-8f14-11eb-8aa0-fc50da2c42a5.jpg)
