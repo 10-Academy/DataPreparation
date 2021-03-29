@@ -24,6 +24,7 @@ CrowdFlower, provider of a “data enrichment” platform for data scientists, c
 </ul>
 The survey statistics clearly shows that most of the data scientist’s time is spent in data preparation (collecting, cleaning, transforming and organizing) before they can begin doing data analysis. There are several valuable data science tasks like data exploration and visualization, data modelling etc. but the less glamorous and least enjoyable data science task - is data preparation. Data preparation is also referred as data wrangling, data munging or data cleaning. The amount of time needed for data preparation for a particular analysis problem, directly depends on the health of the data i.e. how complete it is, how many missing values are there, how dirty it is and the various kinds inconsistencies or irregularities present in the data.
 
+## Why it is important to learn Data Preparation
 According to a Gartner research report, poor quality of data or bad data costs an average organization $13.5 million every year, which is too high a cost to bear. Bad data or poor quality of data can alter the accuracy of insights or could lead to incorrect insights, which is why data preparation or data cleaning is of utmost importance even though it is time consuming and the least enjoyable task of the data science process.
 
 Need for Data Cleaning or Data Preparation
@@ -33,5 +34,8 @@ Need for Data Cleaning or Data Preparation
 3. Dataset lacks your attributes of interest for analysis.
 4. All in all the dataset is not qualitative but is just quantitative.
 
+## Steps to execute a data preparation task
+There is no rigid way of doing data preparation task as different requires different ways of getting a clean, nicely formatted data. It all depends on the state of the data. Generally, it could involve the following process:
+1. Preparing for the preparation:: 
 
 ![data_prep](https://user-images.githubusercontent.com/40719064/112724545-2f437500-8f14-11eb-8aa0-fc50da2c42a5.jpg)
