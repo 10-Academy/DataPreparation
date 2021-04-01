@@ -37,19 +37,20 @@ Need for Data Cleaning or Data Preparation
 3. Dataset lacks your attributes of interest for analysis.
 4. All in all the dataset is not qualitative but is just quantitative.
 
-++Understanding Garbage In, Garbage Out
-
 ## How Data Preparation helps to make Machine Learning work
-++List out typical problems that arise with dirty data
-++List out information that may be missing without 'cleaned' data
-++List out 
+Dirty data is not clean! It contains inaccuracies and is missing key fields that may impact the business. <br>
+Getting a state of the art kind of model from a dirty data is not possible <br>
+With clean data, a simple logistic regression model can achieve outstanding results <br>
+clean data reduces the amount of time to be spent on hyperparameter tuning
 
 ## How Data Preparation is part of your daily life
-++A few good examples
-++APIs and how they take care of some automated data flows?
+
+Almost everybody has done one or more exams before. Data Preparation is synonimous to exam preparation, the steps you take, the books you read, the nightout you ignored because you were preparing for the exam is similar to what you will do in data preparation. All the exploration, formatting, transforming, extracting etc are steps involved in getting a clean data. Just as a good grade or competency is the reward for your preparation for the exam, nice and clean data is the reward of doing data preparation.
+
 
 ## What components make up Data Prep // Which steps to execute a data preparation task?
 There is no rigid way of doing data preparation task as different datasets requires different ways of getting a clean, nicely formatted data. It all depends on the state of the data. Generally, it could involve the following process:
+
 1. Preparing for the preparation:: This stage is known as data gathering or data collection. You can't clean what you don't have right? The process may invlove [collecting data from a database](https://www.w3schools.com/python/python_mysql_getstarted.asp), [scraping a website](https://realpython.com/beautiful-soup-web-scraper-python/) for any kind of data, [extracting sheet from an excel documents](https://towardsdatascience.com/replacing-sheets-with-python-f1608e58d2ca) etc. Having access to the data, you can move to the next phase of data preparation which is Exploratory Data Analysis
 2. Exploratory Data Analysis:: (EDA) for short is a very important stage in any data preparation task. It enables you to understand the structure of any data, make sense of the data, detect outliers, detect features with missing values, identify unwanted features and invalid datapoints etc. This stage generally is divided into 2 the Uni-variate Analysis and Bi-variate Analysis and you can learn more about them in the repository [here](https://github.com/10-Academy-Self-Learning-Resources/DataVisualization)
 3. Data Preprocessing:: While Exploring the data, you would have identified columns/features with problems (invalid values, missing values, outliers etc). Preprocessing the data can involve dropping columns, removing outliers, replacing values etc. It sometimes important to have a domain knowledge about what the data is trying to describe, this can help preprocess the data and generate useful, important insights.
@@ -59,7 +60,7 @@ The final part could be to build a model with the data or save it for another us
 
 
 ## What differentiates beginners from experts in this competency?
-++I don't know
+1. Automation
 
 ## Learn More 
 1. [7 steps of data Preparation](https://www.kdnuggets.com/2019/06/7-steps-mastering-data-preparation-python.html)
