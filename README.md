@@ -69,8 +69,6 @@ The final part could be to build a model with the data or save it for another us
     - knows how to write scripts to automate data cleaning process
     - understand and use PEP8 stardards
     - knows how to use API to get data and run scripts to clean it
-1. Automation is one important skill a professional Data Scientist, MLE etc must possess. Ability to clean data and create a process that cleans the data when new batch or stream arrive is extremely important and it not what every beginner has in their toolkit.
-2. Clean, neat codes to clean data in a way that enables team members to reuse the code without too much stress. This can be achieved by using docstring in codes, adding comments and using functions to perform every data cleaning process
 
 ## Learn More 
 1. [7 steps of data Preparation](https://www.kdnuggets.com/2019/06/7-steps-mastering-data-preparation-python.html)
